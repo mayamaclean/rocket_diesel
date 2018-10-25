@@ -1,0 +1,3 @@
+[global.tls]
+certs = "./zero.pem"
+key = "./one.pem"

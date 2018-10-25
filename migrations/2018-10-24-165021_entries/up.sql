@@ -1,0 +1,6 @@
+CREATE TABLE entries (
+  id SERIAL PRIMARY KEY,
+  opt TEXT,
+  num TIMESTAMP NOT NULL,
+  hash TEXT NOT NULL
+)

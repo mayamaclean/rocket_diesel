@@ -1,0 +1,15 @@
+[package]
+name = "diesel_rocket"
+version = "0.1.0"
+authors = ["maya"]
+
+[dependencies]
+rocket = { version = "0.3.17", features = ["tls"] }
+rocket_codegen = "0.3.17"
+diesel = { version = "1.3.3", features = ["postgres", "r2d2", "chrono"] }
+dotenv = "0.13.0"
+lazy_static = "1.1.0"
+farmhash = "1.1.5"
+serde_json = "*"
+serde_derive = "*"
+serde = "*"
